@@ -6,6 +6,9 @@ const secondNumber = Number(prompt('Inserisci il secondo numero'));
 
 if (firstNumber > secondNumber) {
     console.log(firstNumber);
+} else if (firstNumber === secondNumber) {
+    console.log(firstNumber + ', ' + secondNumber);
 } else {
     console.log(secondNumber);
+    
 }
