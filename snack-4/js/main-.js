@@ -8,7 +8,5 @@ for (let i = 0; i < repeat; i++) {
     
     if(numbers % 2) {
         console.log(numbers);
-    } else {
-        console.log();
     }
 }
